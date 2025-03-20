@@ -1,0 +1,6 @@
+baseURL = 'https://aitsam.co.uk/'
+languageCode = 'en-gb'
+title = 'My New Hugo Site'
+theme = 'beautifulhugo'
+[[module.imports]]
+  path = "github.com/halogenica/beautifulhugo"
