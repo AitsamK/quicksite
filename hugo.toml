@@ -15,16 +15,13 @@ theme = 'beautifulhugo'
   description = "Personal website of Aitsam Kamran"
 
 [params.author]
-  name = "Egor Howell"
+  name = "Aitsam Kamran"
   image = "img/pic2.png"
-  headline = "Data Scientist, Machine Learning Engineer & Content Creator"
-  bio = "Data Scientist, Machine Learning Engineer & Content Creator."
+  headline = "Third Year Undergrad at Newcastle University studying Computer Science"
+  bio = "Comp Sci Year 3 NCL"
   links = [
-    { youtube = "https://youtube.com/@egorhowell" },
-    { medium = "https://medium.com/@egorhowell" },
-    { instagram = "https://instagram.com/egorhowell" },
-    { github = "https://github.com/egorhowell" },
-    { linkedin = "https://www.linkedin.com/in/egorhowell/" },
+    { github = "https://github.com/aitsamk" },
+    { linkedin = "https://www.linkedin.com/in/aitsamkamran/" },
   ]
 
 [caches]
