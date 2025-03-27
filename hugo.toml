@@ -26,3 +26,7 @@ theme = 'beautifulhugo'
     { github = "https://github.com/egorhowell" },
     { linkedin = "https://www.linkedin.com/in/egorhowell/" },
   ]
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
