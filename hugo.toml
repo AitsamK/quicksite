@@ -1,6 +1,28 @@
 baseURL = 'https://aitsam.co.uk/'
 languageCode = 'en-gb'
-title = 'My New Hugo Site'
+languageName = "English"
+languageDirection = "ltr"
+weight = 1
+title = 'Aitsam Kamran'
+# copyright = "Aitsam Kamran"
 theme = 'beautifulhugo'
 [[module.imports]]
   path = "github.com/halogenica/beautifulhugo"
+
+[params]
+  dateFormat = "8 July 2004"
+
+  description = "Personal website of Aitsam Kamran"
+
+[params.author]
+  name = "Egor Howell"
+  image = "img/pic2.png"
+  headline = "Data Scientist, Machine Learning Engineer & Content Creator"
+  bio = "Data Scientist, Machine Learning Engineer & Content Creator."
+  links = [
+    { youtube = "https://youtube.com/@egorhowell" },
+    { medium = "https://medium.com/@egorhowell" },
+    { instagram = "https://instagram.com/egorhowell" },
+    { github = "https://github.com/egorhowell" },
+    { linkedin = "https://www.linkedin.com/in/egorhowell/" },
+  ]
