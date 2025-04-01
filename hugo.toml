@@ -11,19 +11,43 @@ theme = 'beautifulhugo'
 
 [params]
   dateFormat = "8 July 2004"
-
   description = "Personal website of Aitsam Kamran"
+  subtitle = "Computer Science UG3"
 
 [params.author]
   name = "Aitsam Kamran"
   image = "img/pic2.png"
   headline = "Third Year Undergrad at Newcastle University studying Computer Science"
   bio = "Comp Sci Year 3 NCL"
-  links = [
-    { github = "https://github.com/aitsamk" },
-    { linkedin = "https://www.linkedin.com/in/aitsamkamran/" },
-  ]
+  email = "contact@aitsam.co.uk"
+  github = "https://github.com/aitsamk"
+  linkedin = "https://www.linkedin.com/in/aitsamkamran/"
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 4
